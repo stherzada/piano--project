@@ -6,3 +6,13 @@
   text-align: center;
   line-height: 1.4;
 }
+.autor {
+  all: unset;
+  transition: ease-in-out 1s;
+}
+
+.autor:hover {
+  cursor: pointer;
+  color: rgb(16, 15, 15);
+  text-decoration: underline;
+}

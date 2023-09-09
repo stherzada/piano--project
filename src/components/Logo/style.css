@@ -5,4 +5,7 @@
   height: var(--logo-height);
   margin: 0;
   padding-top: 30px;
+  font-family: "Tilt Warp", cursive;
+  color: #191013a3;
+  filter: drop-shadow(1px 1px 5px #f4f4f2);
 }

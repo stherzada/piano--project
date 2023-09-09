@@ -1,6 +1,6 @@
 const C1_MIDI_NUMBER = 24;
 const C4_MIDI_NUMBER = 60;
-const B5_MIDI_NUMBER = 97;
+const B5_MIDI_NUMBER = 83;
 //c-y-z-c u-e-t-u z-r-y-z x-t-u-x
 export const LOWER_NOTE = C4_MIDI_NUMBER;
 export const HIGHER_NOTE = B5_MIDI_NUMBER;

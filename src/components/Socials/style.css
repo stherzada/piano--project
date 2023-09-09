@@ -1,0 +1,20 @@
+.container-socials {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 1rem;
+}
+
+.social-link {
+  color: #d4cdc5;
+  font-size: 2.5rem;
+  filter: drop-shadow(2px 4px 6px #191013);
+}
+.social-link:hover {
+  box-shadow: inset;
+  cursor: pointer;
+  color: #191013a3;
+  filter: drop-shadow(1px 1px 5px #f4f4f2);
+}

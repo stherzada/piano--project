@@ -10,8 +10,8 @@
   width: var(--white-key-width);
   height: var(--white-key-height);
   padding-top: var(--white-key-padding);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #191013;
+  color: #191013;
   margin-right: -1px;
   z-index: 1;
 }
@@ -21,22 +21,22 @@
   width: var(--black-key-width);
   height: var(--black-key-height);
   padding-top: var(--black-key-padding);
-  background-color: #111;
-  color: white;
+  background-color: #191013;
+  color: #f4f4f2;
   margin: 0 calc(-0.5 * calc(var(--black-key-width)));
   z-index: 2;
 }
 
 .key--natural:active,
 .key--natural.is-pressed {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(221, 219, 219);
 }
 
 .key--sharp:active,
 .key--sharp.is-pressed,
 .key--flat:active,
 .key--flat.is-pressed {
-  background-color: #555;
+  background-color: #483139;
 }
 
 .key:disabled {
