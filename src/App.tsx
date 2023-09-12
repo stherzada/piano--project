@@ -10,6 +10,7 @@ export const App = () => {
       <Logo />
       <main className="app-content">
         <Main />
+        <h1>aa</h1>
       </main>
       <Footer />
       <Socials />
