@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useEffect, useRef, useState } from "react";
+import { FunctionComponent, useEffect, useState } from "react";
 import { selectKey } from "../../domain/keyboard";
 import { notes, MidiValue } from "../../domain/note";
 import { Key } from "../Key";
@@ -9,6 +9,7 @@ export interface KeyboardProps {
     loading: boolean;
     play: (note: MidiValue) => Promise<void>;
     stop: (note: MidiValue) => Promise<void>;
+    setMessage: React.Dispatch<React.SetStateAction<string>>;
 }
 
 interface musicsStores {
@@ -19,6 +20,7 @@ export const Keyboard: FunctionComponent<KeyboardProps> = ({
     loading,
     stop,
     play,
+    setMessage,
 }) => {
     const [sequence, setSequence] = useState("");
     const musics: musicsStores = data;
@@ -28,7 +30,7 @@ export const Keyboard: FunctionComponent<KeyboardProps> = ({
         const timeout = setTimeout(() => setSequence(""), 2500);
         if (Object.keys(musics).includes(sequence)) {
             setSequence("");
-            console.log(musics[sequence]);
+            setMessage(musics[sequence]);
             clearTimeout(timeout);
         }
 
