@@ -1,0 +1,15 @@
+.secret {
+    color: purple;
+    margin-bottom:48px;
+    align-self: center;
+    animation: reveal 7s infinite;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes reveal {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
