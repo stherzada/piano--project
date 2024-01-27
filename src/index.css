@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nabla&family=Raleway:wght@500;600&family=Roboto&family=Tilt+Warp&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
   --footer-height: 60px;
   --logo-height: 8rem;
@@ -6,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Raleway", "Segoe UI",
+  font-family: -apple-system, BlinkMacSystemFont, "Outfit", "Raleway", "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
 
@@ -20,10 +23,7 @@ code {
     monospace;
 }
 
-/* *,
-*::after,
-*::before {
-  /* background-color: #d4cdc5; */
+
 
 button {
   border: none;

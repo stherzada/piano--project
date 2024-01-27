@@ -1,15 +1,86 @@
 .secret {
     color: purple;
-    margin-bottom:48px;
+    margin-bottom: 48px;
     align-self: center;
     animation: reveal 7s infinite;
 }
+
 .container {
     display: flex;
     flex-direction: column;
 }
 
 @keyframes reveal {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+.unlocked {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    right: 0;
+    display: flex;
+    background: rgba(8, 8, 8, 0.155);
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.unlocked-music {
+    width: 40rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background: #f1f1f1;
+    /* padding: 2rem; */
+    gap: rem;
+    line-height: calc(16px * 1.3);
+    box-sizing: border-box;
+    /* padding: 3rem; */
+    position: relative;
+    /* padding: 3rem;*/
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-bottom: 1px solid #c0c0c0;
+    gap: 0.5rem;
+}
+
+.close {
+    display: flex;
+    /* align-items: center; */
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    justify-content: flex-end;
+}
+
+.describle {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
 }
