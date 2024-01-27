@@ -2,11 +2,11 @@ import React, { FunctionComponent, useEffect } from "react";
 import { useInstrument } from "../../state/Instrument";
 import { useSoundfont } from "../../adapters/Soundfont";
 import { useAudioContext } from "../AudioContextProvider";
-import { Keyboard } from "../Keyboard";
+import { Keyboard, infoMusics } from "../Keyboard";
 import "./style.css";
 
 interface KeyboardWithInstrumentProps {
-    setMessage: React.Dispatch<React.SetStateAction<string>>;
+    setMessage: React.Dispatch<React.SetStateAction<infoMusics | undefined>>;
 }
 
 export const KeyboardWithInstrument: FunctionComponent<

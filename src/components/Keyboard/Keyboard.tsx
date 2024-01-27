@@ -9,11 +9,18 @@ export interface KeyboardProps {
     loading: boolean;
     play: (note: MidiValue) => Promise<void>;
     stop: (note: MidiValue) => Promise<void>;
-    setMessage: React.Dispatch<React.SetStateAction<string>>;
+    setMessage: React.Dispatch<React.SetStateAction<infoMusics | undefined>>;
 }
 
 interface musicsStores {
-    [key: string]: string;
+    [key: string]: infoMusics;
+}
+
+export interface infoMusics{
+    music: string;
+    author: string;
+    describle: string;
+    url: string;
 }
 
 export const Keyboard: FunctionComponent<KeyboardProps> = ({
@@ -28,12 +35,13 @@ export const Keyboard: FunctionComponent<KeyboardProps> = ({
     useEffect(() => {
         console.log(sequence);
         const timeout = setTimeout(() => setSequence(""), 2500);
+        
         if (Object.keys(musics).includes(sequence)) {
             setSequence("");
             setMessage(musics[sequence]);
             clearTimeout(timeout);
         }
-
+      
         return () => {
             clearTimeout(timeout);
         };

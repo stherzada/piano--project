@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { InstrumentContextProvider } from "../../state/Instrument";
 import { InstrumentSelector } from "../InstrumentSelector";
-import { KeyboardWithInstrument } from "../Keyboard";
+import { KeyboardWithInstrument, infoMusics } from "../Keyboard";
 import "./style.css";
 
 export const Playground = () => {
-    const [unlockedMusic, setUnlockedMusic] = useState("");
+    const [unlockedMusic, setUnlockedMusic] = useState<infoMusics>();
 
     useEffect(() => {}, [unlockedMusic]);
 
@@ -13,9 +13,14 @@ export const Playground = () => {
         <div className="container">
             <InstrumentContextProvider>
                 {unlockedMusic && (
-                    <a href={unlockedMusic} className="secret">
-                        Você desbloqueou uma música, clique aqui para ouvi-la
-                    </a>
+                 <>   
+                 <button onClick={() => setUnlockedMusic(undefined)}> X </button>
+                 <p>{unlockedMusic.author}</p>
+                 <a href={unlockedMusic.url} className="secret">
+                 Você desbloqueou uma música, clique aqui para ouvi-la
+             </a>
+             </>
+                 
                 )}
                 <div className="playground">
                     <KeyboardWithInstrument setMessage={setUnlockedMusic} />
