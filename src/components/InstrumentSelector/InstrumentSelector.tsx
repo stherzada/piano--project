@@ -1,4 +1,4 @@
-import React, { FunctionComponent, ChangeEvent } from "react"
+import { FunctionComponent, ChangeEvent } from "react"
 import { InstrumentName } from "soundfont-player"
 import { useInstrument } from "../../state/Instrument"
 import { options } from "./options"

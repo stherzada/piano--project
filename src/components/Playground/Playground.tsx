@@ -18,14 +18,14 @@ export const Playground = () => {
                             <div className="unlocked-music">
                                 <span className="close"> <button onClick={() => setUnlockedMusic(undefined)}> <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/x.png" alt="x"/> </button></span>
                                 <div className="music">
-                                <h2>{unlockedMusic.music}</h2>
+                                <h1>{unlockedMusic.music}</h1>
                                 <p>{unlockedMusic.author}</p>
                                 </div>
                                 <span className="describle">
                                     <p>{unlockedMusic.describle}</p>
                                 </span>
                                 <a href={unlockedMusic.url} className="secret">
-                                    Você desbloqueou uma música, clique aqui para ouvi-la
+                                    Clique aqui para ouvir a música ✨
                                 </a>
                             </div>
                         </div>

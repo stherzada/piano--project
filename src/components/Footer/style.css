@@ -1,11 +1,11 @@
 .footer {
-  height: var(--footer-height);
   padding: 5px;
   font-family: "Noto Sans", sans-serif;
   font-weight: bold;
   text-align: center;
   line-height: 1.4;
 }
+
 .autor {
   all: unset;
   transition: ease-in-out 1s;
