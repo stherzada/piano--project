@@ -8,7 +8,6 @@ interface KeyProps {
     type: NoteType;
     label: string;
     disabled?: boolean;
-
     onUp: ReactEventHandler<HTMLButtonElement>;
     onDown: ReactEventHandler<HTMLButtonElement>;
     sequence: string;
@@ -40,6 +39,7 @@ export const Key: FunctionComponent<KeyProps> = ({
             className={clsx(`key key--${type}`, pressed && "is-pressed")}
             onMouseDown={onDown}
             onMouseUp={onUp}
+            onClick={()  => setSequence(sequence + label)}
             type="button"
             {...rest}
         >
