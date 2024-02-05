@@ -24,7 +24,7 @@ export const Playground = () => {
                                 <span className="describle">
                                     <p>{unlockedMusic.describle}</p>
                                 </span>
-                                <a href={unlockedMusic.url} className="secret">
+                                <a href={unlockedMusic.url} className="secret" target="blank">
                                     Clique aqui para ouvir a música ✨
                                 </a>
                             </div>

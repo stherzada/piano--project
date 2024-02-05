@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Tecladinho Lindinho
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📍 Por quê do projeto?
 
-Currently, two official plugins are available:
+- Essa ideia surgiu para aprofundar meus conhecimentos na lib **React**, e trazer este produto para aprendizado de um instrumento.
+![imagem do site, com um titulo chamado tecladinho lindinho, um piano virtual, redes sociais no canto esquerdo e um footer.](https://i.imgur.com/e5uQVpc.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Nele você tem a possibilidade de trocar o som que tocará no piano, através do *select.* que está a baixo do piano.
+---
+### ⭐ Como utilizar este projeto?
+-  Para fazer este projeto rodar em sua máquina, recomendo **clonar** este projeto e instalar qualquer versão acima da **12** do [node](https://nodejs.org/en/download) em sua máquina.
 
-## Expanding the ESLint configuration
+Logo após, abra seu terminal dentro da sua IDE e digite:
+``npm i ``
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Quando todas as expansões forem baixadas, dê este comando no terminal:
+``npm run dev``
 
-- Configure the top-level `parserOptions` property like this:
+ - Clique no link que será gerado com **_ctrl + botão esquerdo do mouse_**, exemplo de link que pode ser gerado: http://localhost:0001/
+---
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### 🛠 Tecnologias Utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [React](https://react.dev)
+- [Vite](https://vitejs.dev)
+- [React-Icons](https://react-icons.github.io/react-icons/)
+- [Sass](https://sass-lang.com/install/)
+- [Soundfont](https://www.npmjs.com/package/soundfont-player)
+---
+### 🔗 Link para o projeto: 
+ - [Tecladinho Lindinho](https://piano-project-wheat.vercel.app)
+---
+<div align="center">Feito por <a href="https://www.linkedin.com/in/sthefany-sther/">Sther</a> 🤍</div>
