@@ -6,8 +6,13 @@
 ![imagem do site, com um titulo chamado tecladinho lindinho, um piano virtual, redes sociais no canto esquerdo e um footer.](https://i.imgur.com/e5uQVpc.png)
 
 - Nele você tem a possibilidade de trocar o som que tocará no piano, através do *select.* que está a baixo do piano.
+
 ---
-### ⭐ Como utilizar este projeto?
+### 🔗 Link para o projeto: 
+ - [Tecladinho Lindinho](https://piano-project-wheat.vercel.app)
+   
+---
+### ⭐ Como utilizar este projeto local?
 -  Para fazer este projeto rodar em sua máquina, recomendo **clonar** este projeto e instalar qualquer versão acima da **12** do [node](https://nodejs.org/en/download) em sua máquina.
 
 Logo após, abra seu terminal dentro da sua IDE e digite:
@@ -28,8 +33,6 @@ Quando todas as expansões forem baixadas, dê este comando no terminal:
 - [React-Icons](https://react-icons.github.io/react-icons/)
 - [Sass](https://sass-lang.com/install/)
 - [Soundfont](https://www.npmjs.com/package/soundfont-player)
----
-### 🔗 Link para o projeto: 
- - [Tecladinho Lindinho](https://piano-project-wheat.vercel.app)
+
 ---
 <div align="center">Feito por <a href="https://www.linkedin.com/in/sthefany-sther/">Sther</a> 🤍</div>
