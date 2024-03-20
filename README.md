@@ -12,7 +12,7 @@
  - [Tecladinho Lindinho](https://piano-project-wheat.vercel.app)
    
 ---
-### ⭐ Como utilizar este projeto local?
+### ⭐ Como utilizar este projeto localmente?
 -  Para fazer este projeto rodar em sua máquina, recomendo **clonar** este projeto e instalar qualquer versão acima da **12** do [node](https://nodejs.org/en/download) em sua máquina.
 
 Logo após, abra seu terminal dentro da sua IDE e digite:
