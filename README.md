@@ -15,13 +15,21 @@
 ### ⭐ Como utilizar este projeto localmente?
 -  Para fazer este projeto rodar em sua máquina, recomendo **clonar** este projeto e instalar qualquer versão acima da **12** do [node](https://nodejs.org/en/download) em sua máquina.
 
+```shell
+git clone https://github.com/stherzada/piano--project.git
+```
+
 Logo após, abra seu terminal dentro da sua IDE e digite:
 
-``npm i ``
+``` shell
+npm i
+```
 
 Quando todas as expansões forem baixadas, dê este comando no terminal:
 
-``npm run dev``
+``` shell 
+npm run dev
+```
 
  - Clique no link que será gerado com **_ctrl + botão esquerdo do mouse_**, exemplo de link que pode ser gerado: http://localhost:0001/
 ---
